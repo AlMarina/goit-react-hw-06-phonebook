@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { BtnDelete, ListItem } from './ContactList.syled';
-import { deleteContact } from 'redux/contactsSlice';
+import { deleteContact } from '../../redux/contactsSlice';
 
 export const ContactList = () => {
   const contacts = useSelector(state => state.contactStore.contacts);
